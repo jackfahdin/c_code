@@ -9,6 +9,7 @@
 #
 # Normal rules
 #
+out
 c_code.*
 .*
 !.config
