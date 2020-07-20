@@ -9,12 +9,12 @@
 
 int main(int argc,char *argv[]){
     unsigned long year;
-    printf("Input a year:");
+    printf("请输入年份:");
     scanf("%lu", &year);
     if ((year%4==0&&year%100!=0)||(year%400==0)){
-        printf("Year %lu is a leap year.\n", year);
+        printf("%lu 年是闰年。\n", year);
     }else{
-        printf("Year %lu is not a leap year.\n", year);
+        printf("%lu 年不是闰年。\n", year);
     }
     system("pause");
     return 0;
