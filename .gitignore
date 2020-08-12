@@ -9,6 +9,7 @@
 #
 # Normal rules
 #
+run
 *.exe
 out
 c_code.*
