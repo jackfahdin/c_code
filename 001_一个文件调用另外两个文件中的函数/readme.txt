@@ -1,0 +1,2 @@
+使用命令:make
+编译出可执行文件SimpleMakefile
